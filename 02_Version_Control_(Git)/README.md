@@ -100,4 +100,11 @@
 7. Buat Test Case
 8. Hasil Tes
 9. Summary
-Test Project → Milestones → Test Plan → Test Runs → Test Case and Add to Test Runs → Execute Test Case → Generate Report  
+Test Project → Milestones → Test Plan → Test Runs → Test Case and Add to Test Runs → Execute Test Case → Generate Report 
+
+## Reference :
+https://www.jagoanhosting.com/blog/git-adalah/#:~:text=Perintah%20Dasar%20Git,-Agar%20dapat%20menggunakan&text=Git%2DInit%3A%20Digunakan%20untuk%20membuat,ke%20repository%20yang%20baru%20dipilih.
+
+https://www.youtube.com/watch?v=QOO-7rfO_ks&list=PL0VF8QJoqsVgkP0BMzmTVfaK2Dsr-0_Pm
+
+dan PowerPoint by Alterra
