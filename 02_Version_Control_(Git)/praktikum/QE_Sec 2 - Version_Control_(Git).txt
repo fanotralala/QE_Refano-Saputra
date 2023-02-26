@@ -30,3 +30,7 @@ o akan ada foto terkait flow yang disebutkan
 · lakukan management konflik pada github
 · Lakukan code review pada github yang kalian kumpulkan
 o terdapat foto seperti apa itu code review
+
+Reference
+https://github.com/petanikode/belajar-git 
+
