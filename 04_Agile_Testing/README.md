@@ -64,5 +64,6 @@ Berikut ini adalah 5 poin dalam testing manifesto, antara lain:
 
 # Referensi
 
-PPT Alta
-https://mediumcom@ersandibillah03apa-itu-testing-manifesto-7a53cee24a4e
+- PPT Alterra
+- https://mediumcom@ersandibillah03apa-itu-testing-manifesto-7a53cee24a4e
+- https://medium.com/qa-malang/testing-manifesto-1cc52c31833 
