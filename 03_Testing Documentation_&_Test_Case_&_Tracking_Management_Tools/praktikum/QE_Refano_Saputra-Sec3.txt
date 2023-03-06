@@ -1,0 +1,54 @@
+Memahami Pembuatan Dokumen & Penggunaan Tools untuk Software Testing
+Soal Testing Documentation
+Soal Prioritas 1 (80)
+1. Buatlah Test Case sebanyak mungkin pada fitur login, pilih produk sampai pilih metode pembayaran dari https://www.sepulsa.com/ dengan menggunakan format laporan yang sudah ditentukan. Letakkan kumpulan test case tersebut dalam bentuk file excel
+
+https://docs.google.com/spreadsheets/d/1iM-8u1c0j6uN52TO4XWaXojmCuJpzgCO/edit?usp=sharing&ouid=105221823030141838600&rtpof=true&sd=true 
+Soal Prioritas 2 (20)
+1. Buatlah test case untuk aplikasi https://www.sepulsa.com/ untuk fitur register, lihat artikel dan lihat riwayat transaksi dengan menggunakan format laporan yang sudah ditentukan. Letakkan kumpulan test case tersebut dalam bentuk file excel
+
+https://docs.google.com/spreadsheets/d/1iM-8u1c0j6uN52TO4XWaXojmCuJpzgCO/edit?usp=sharing&ouid=105221823030141838600&rtpof=true&sd=true 
+Soal Eksplorasi
+1. Lakukan pengujian non fungsional untuk aplikasi https://www.sepulsa.com/ dengan menggunakan Lighthouse. Referensi mengenai Lighthouse dapat dicek di link berikut. Kriteria untuk pengujian non fungsional adalah sebagai berikut:
+a. Terdapat pengujian non fungsional untuk tampilan di web dan mobile.
+b. Terdapat screenshot hasil pengujian untuk 2 platform (web dan mobile) beserta penjelasan dari hasil pengujian yang telah dilakukan.
+c. Hasil pengujian ditulis dalam google docs.
+d. Contoh hasil pengujian dengan menggunakan Lighthouse adalah sebagai berikut:
+
+
+Pengujian Non Fungsional Pada Dekstop
+
+Hasil dari pengujian laman https://www.sepulsa.com/ dengan menggunakan Lighthouse pada dekstop melalui pengujian non fungsional dapar disimpulkan bahwa website tersebut memiliki Perfomance di angka 69 dan dapat disimpulkan standart. Untuk Accesibily dan SEO berada di angka 87 dan 100 yang berarti baik serta poin Best Practice di angka 83.
+
+
+
+
+
+
+Pengujian Non Fungsional Pada Mobile
+Hasil dari pengujian laman https://www.sepulsa.com/ dengan menggunakan Lighthouse pada mobile melalui pengujian non fungsional dapar disimpulkan bahwa website tersebut memiliki Perfomance di angka 31 dan dapat disimpulkan kurang baik. Untuk Accesibily dan SEO berada di angka 97 dan 100 yang berarti baik serta poin Best Practice di angka 75.
+
+
+
+
+
+Soal Test Case Management Tools
+1. Implementasikan penggunaan test case management tools untuk aplikasi https://www.sepulsa.com/ dengan kriteria sebagai berikut:
+a. Menggunakan TestRail sebagai test case management tools.
+b. Terdapat 3 fitur yang dilakukan testing yaitu login, pilih produk dan pilih metode pembayaran.
+c. Setiap test case terdapat case positif dan negative
+
+Login
+
+
+Pilih Produk
+
+
+
+Metode Pembayaran
+
+
+
+
+Soal Tracking Management Tools
+1. Buatlah simulasi terjadinya bugs pada suatu feature (Story, Task, Subtask). Deskripsikan Feature dan Bugs (minimal 2 untuk bugs) dari simulasi yang dibuat pada Jira. Lampirkan screenshot step-step pekerjaan berupa docs atau pdf
