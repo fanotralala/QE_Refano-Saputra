@@ -1,0 +1,53 @@
+Soal Software Testing Fundamental
+
+Soal Prioritas 1 (80)
+
+1. Sebutkan dan jelaskan berbagai automation testing tool yang dapat digunakan (minimal 3)!
+
+TestComplete = salah satu automation tools yang memberikan dukungan untuk menguji mulai dari Desktop, API, Web. Bahasa yang digunakan yaitu mulai dari Jscript, C# dan lain lain
+
+JMeter = merupakan automation tools yang digunakan untuk menguji kinerja, beban dam stabilitas situs Web ataupun aplikasi dengan mencoba mengirimkan banyak permintaaan HTTP dalam waktu yang sama
+
+Katalon Studio = ialah pengujian otomatis untuk menguji aplikasi, web dan seluler/ Fitur yang disediakan yaitu pengujian fungsional, pengujian kerja, dan pengujian API, serta menggunakan beberapa bahas pemrograman seperti Java,C# dan Groovy
+
+AppTester = adalah automation testing tools untuk aplikasi seluler. Pengujian yang ditawarkan yaitu pengujian secara fungsional, kinerja, dan keamanan
+
+2. Tuliskan secara lengkap kesimpulan dari gambar berikut!
+
+Kode diatas merupakan salah satu codingan mengenai Calculator terlihat dari nampaknya Java class CalculatorServiceImpl., terlihat juga dari dua method yaitu add dan subtract. Method add melakukan penjumlahan sedangkan subtract akan melakukan pengruangan. 
+
+Nantinya kedua method tersebut berfungsi untuk mengembalikan nilai bertipe data integer yang merupakan hasil operasi dari kedua parameter a dan b.
+Soal Prioritas 2 (20)
+
+1. Tuliskan secara lengkap kesimpulan dari gambar berikut!
+
+Berdasarkan hasil dari gambar diatas saya pribadi dapat menyimpulkan bahwa terdapat ada dua symbol centang hijau dan silang yang berarti bahwa centang hijau dapat diartikan berhasil sedangkan silang dapat diartikan bahwa excute gagal. Bila hasil excute gagal atau bertanda silang berarti terdapat bug pada codingan dan jika berhasil akan menampilkan tanda centang.
+Soal Eksplorasi (20)
+1. Tulis kesimpulan dari hasil pengujian berikut.
+
+Kesimpulan dari hasil pengujian berikut adalah dibuat 2 skenario untuk pengujian. Tes ini diselesaikan dalam waktu kurang lebih 21 detik, 110 pengulangan terdistribusi berlalu tanpa henti. Skenario pertama terdiri dari 5 pengguna visual, diselesaikan dalam 1,6 detik, dan 10 iterasi terpisah. Skenario kedua terdiri dari 10 tampilan pengguna yang diselesaikan dalam 16,7 detik dan 100 iterasi gabungan. Kali ini, pengujian mengembalikan kode status respons 200, yang berarti OK atau berhasil. Data terkirim sebesar 2,5 MB, data terkirim sebesar 24 KB. 
+
+
+Soal Software Testing as a Career Path
+
+1. Sebutkan berbagai skill yang dibutuhkan untuk menjadi seorang software tester!
+
+Non - Technical Skills
+a. Analiytical Skills merupakan skill untuk membantu kita dalam membedah software system menjadi unit yang lebih kecil dan dapat dipahami dengan mudah dan membuat test case
+
+b. Communication Skills merupakan skill agar kita dengan mudah menyampaikan dan memahmi bug atau kendala saat testing
+
+c. Time Management & Organization Skill untuk membuat pekerjaan kita menjadi lebih efisiensi dan produktivitas kita menjadi lebih baik 
+
+d. Great Attitude merupakan skill yang cukup diperlukan dalam karir kita hal ini dikarenakan nantinya kita akan bertemu dengan banyak orang dan harus memiliki vibes yang bagus untuk orang lain.
+
+e. Passion merupakan skill yang harus kita miliki karena dengan passion kita dapat melalukan pekerjaan dengan senang dan tidak beban.
+Technical Skills
+a. Basic Knowledge of Unix / Linux commands
+b. Knowledge of a Test Management Tool
+c. Knowledge of a Tracking Management Tool
+d. Knowledge of a Automation Testing Tool
+
+Referensi : 
+Materi Powerpoint Software Testing Fundamental
+Materi Powepoint Software Testing as a Career Path
