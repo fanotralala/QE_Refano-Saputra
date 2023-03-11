@@ -72,6 +72,7 @@ Proses pewarisan data dan method dari suatu class yang telah ada kepada suatu cl
 
 ## **Encapsulation**
 Enkapsulasi adalah sebuah peroses pemaketan / penyatu data bersama metode – metodenya, dimana hal ini bermanfaat untuk menyembunyikan rincian – rincian implementasi dari pemakai.
+
 ![Encapsulation](https://www.scientecheasy.com/wp-content/uploads/2018/06/encapsulation-in-java.png)
 
 ## **Abstraction**
