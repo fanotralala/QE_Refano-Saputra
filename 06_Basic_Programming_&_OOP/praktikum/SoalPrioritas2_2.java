@@ -1,8 +1,7 @@
 public class SoalPrioritas2_2 {
         
-	public static void main(String[] args) {
+	public static void printAsterisk(int n) {
 
-        int n = 5;
         for (int i = 1; i <= n; i++) {
             for (int j = n; j >= i; j--) {
                 System.out.print(" ");
@@ -12,7 +11,11 @@ public class SoalPrioritas2_2 {
         System.out.print("* ");
         }
         System.out.println();
-        }   
+        }
+    }
+        
+        public static void main(String[] args) {
+            printAsterisk(5);
     }
 }
 
