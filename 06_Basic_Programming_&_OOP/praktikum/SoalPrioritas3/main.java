@@ -20,7 +20,7 @@ public class main {
         System.out.println("INFO PRODUK");
         product.setName("apple juice");
         product.setPrice(18000);
-        product.setStock(2);
+        product.setStock(20);
         product.getInfo();
 
     }
