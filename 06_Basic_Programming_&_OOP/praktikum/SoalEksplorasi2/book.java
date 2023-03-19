@@ -24,7 +24,7 @@ public class book {
         // Display message for taking input later
         // taking input via
         // nextInt() and nextLine() standard methods
-        System.out.println("Enter Serial No of Book:");
+        System.out.println("Enter Serial No Book:");
         this.sNo = input.nextInt();
         input.nextLine();
  

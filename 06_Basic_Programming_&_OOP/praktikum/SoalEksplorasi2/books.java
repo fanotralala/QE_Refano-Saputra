@@ -1,4 +1,4 @@
-package College;
+package SoalEksplorasi2;
 
 import java.util.Scanner;
  
