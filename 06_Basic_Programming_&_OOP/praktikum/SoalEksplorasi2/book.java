@@ -1,4 +1,4 @@
-package College;
+package SoalEksplorasi2;
  
 // Importing required classes
 import java.util.Scanner;

@@ -3,8 +3,8 @@ import java.util.LinkedHashSet;
 
 public class TugasNo1 {
     public static void main(String[] args) throws Exception {
-        String[] kel1 = { "Budi", "Puguh", "Slamet" };
-        String[] kel2 = { "Budi", "Sudarso" };
+        String[] kel1 = { "kazuya", "jin", "lee" };
+        String[] kel2 = { "kazuya", "feng" };
 
         String[] hasilGabung = gabunginSemua(kel1, kel2);
         System.out.println(Arrays.toString(hasilGabung));
