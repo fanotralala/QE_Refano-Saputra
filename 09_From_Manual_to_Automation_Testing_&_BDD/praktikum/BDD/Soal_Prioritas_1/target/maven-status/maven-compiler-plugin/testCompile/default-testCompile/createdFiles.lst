@@ -1,0 +1,7 @@
+starter\CucumberTestSuite.class
+starter\post\Post.class
+starter\login\Login.class
+starter\stepdefinitions\RegisterSteps.class
+starter\stepdefinitions\LoginSteps.class
+starter\stepdefinitions\PostSteps.class
+starter\register\Register.class

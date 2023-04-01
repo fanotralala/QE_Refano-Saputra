@@ -1,0 +1,4 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Login","As a user i have to able to success login","SUCCESS","2023-04-01T20:55:37.340666+07:00[Asia/Jakarta]","0.0","0.75"
+"Post","As a user i have to able to post on main page","SUCCESS","2023-04-01T20:55:38.1222831+07:00[Asia/Jakarta]","0.0","0.05"
+"Register","As a user i have to able to success register","SUCCESS","2023-04-01T20:55:38.1867388+07:00[Asia/Jakarta]","0.0","0.05"
