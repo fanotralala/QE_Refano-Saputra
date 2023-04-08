@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><testsuite errors="0" failures="0" name="Login to Sepulsa Account" skipped="0" tests="2" time="15.82" timestamp="2023-04-09 02:24:23"><testcase name="Login with correct credentials"/><testcase name="Login with incorrect password"/></testsuite>

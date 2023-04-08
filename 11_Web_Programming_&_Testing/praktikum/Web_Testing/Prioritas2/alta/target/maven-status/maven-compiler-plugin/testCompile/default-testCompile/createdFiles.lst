@@ -1,0 +1,7 @@
+starter\pages\IsipulsaPage.class
+starter\stepdefintions\PaymentMethodSteps.class
+starter\CucumberTestSuite.class
+starter\pages\HomePage.class
+starter\pages\LoginPage.class
+starter\stepdefintions\LoginSteps.class
+starter\stepdefintions\SelectProductSteps.class

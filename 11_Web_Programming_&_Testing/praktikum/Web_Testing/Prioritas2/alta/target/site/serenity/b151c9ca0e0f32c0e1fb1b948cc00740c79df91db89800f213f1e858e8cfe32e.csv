@@ -1,0 +1,3 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Login to Sepulsa Account","Login with correct credentials","SUCCESS","2023-04-09T02:24:23.309623+07:00[Asia/Jakarta]","0.0","8.32"
+"Login to Sepulsa Account","Login with incorrect password","SUCCESS","2023-04-09T02:24:32.6948136+07:00[Asia/Jakarta]","0.0","7.5"
