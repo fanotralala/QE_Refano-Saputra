@@ -1,0 +1,4 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Login to Sepulsa Account","Login with correct credentials","SUCCESS","2023-04-09T11:14:22.5614472+07:00[Asia/Jakarta]","0.0","30.66"
+"Login to Sepulsa Account","Login with incorrect password","SUCCESS","2023-04-09T11:14:53.7624893+07:00[Asia/Jakarta]","0.0","34.85"
+"Select Payment Method","Select Payment Method Dana After Choosing Product","ERROR","2023-04-09T11:15:28.8684301+07:00[Asia/Jakarta]","0.0","33.74"

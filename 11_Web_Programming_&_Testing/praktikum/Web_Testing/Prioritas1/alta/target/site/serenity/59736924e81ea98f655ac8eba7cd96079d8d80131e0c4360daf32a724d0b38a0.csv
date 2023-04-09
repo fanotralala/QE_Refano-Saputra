@@ -1,4 +1,4 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
-"Add to Cart","User Successfully add item to cart","SUCCESS","2023-04-09T01:07:20.8734548+07:00[Asia/Jakarta]","0.0","6.28"
-"Checkout","User cannot checkout without providing postal code","SUCCESS","2023-04-09T01:07:27.3790045+07:00[Asia/Jakarta]","0.0","0.13"
-"Logout after checkout","Logout after completing checkout","SUCCESS","2023-04-09T01:07:27.5220818+07:00[Asia/Jakarta]","0.0","0.07"
+"Add to Cart","User Successfully add item to cart","SUCCESS","2023-04-09T11:11:45.0054663+07:00[Asia/Jakarta]","0.0","29.0"
+"Checkout","User cannot checkout without providing postal code","SUCCESS","2023-04-09T11:12:14.5916157+07:00[Asia/Jakarta]","0.0","0.28"
+"Logout after checkout","Logout after completing checkout","SUCCESS","2023-04-09T11:12:14.8976592+07:00[Asia/Jakarta]","0.0","0.1"

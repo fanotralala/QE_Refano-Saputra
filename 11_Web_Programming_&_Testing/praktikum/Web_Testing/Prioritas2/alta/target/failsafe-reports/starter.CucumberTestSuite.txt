@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: starter.CucumberTestSuite
 -------------------------------------------------------------------------------
-Tests run: 6, Failures: 0, Errors: 4, Skipped: 0, Time elapsed: 40.825 s <<< FAILURE! - in starter.CucumberTestSuite
-Select Payment Method.Select Payment Method Dana After Choosing Product  Time elapsed: 11.962 s  <<< ERROR!
+Tests run: 6, Failures: 0, Errors: 4, Skipped: 0, Time elapsed: 127.787 s <<< FAILURE! - in starter.CucumberTestSuite
+Select Payment Method.Select Payment Method Dana After Choosing Product  Time elapsed: 34.124 s  <<< ERROR!
 org.openqa.selenium.NoSuchElementException: 
 no such element: Unable to locate element: {"method":"css selector","selector":"#nomor\-handphone"}
   (Session info: chrome=111.0.5563.147)
@@ -10,11 +10,11 @@ For documentation on this error, please visit: https://selenium.dev/exceptions/#
 Build info: version: '4.8.1', revision: '8ebccac989'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [bd2daab9524a8cf20eef9bac33c035d0, findElement {using=id, value=nomor-handphone}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.147, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\Users\BUNAYY~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:60533}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60533/devtoo..., se:cdpVersion: 111.0.5563.147, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: bd2daab9524a8cf20eef9bac33c035d0
+Command: [fb97dd5cbfd8ecd90cf9bd62df4aa787, findElement {using=id, value=nomor-handphone}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.147, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\Users\BUNAYY~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50411}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50411/devtoo..., se:cdpVersion: 111.0.5563.147, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: fb97dd5cbfd8ecd90cf9bd62df4aa787
 
-Select Payment Method.Not choosing a Payment Method After Selecting a Product  Time elapsed: 0.045 s  <<< ERROR!
+Select Payment Method.Not choosing a Payment Method After Selecting a Product  Time elapsed: 0.17 s  <<< ERROR!
 io.cucumber.junit.UndefinedStepException: 
 The step 'I already login with correct account sned go to the Isi Pulsa Page' is undefined.
 You can implement this step using the snippet(s) below:
@@ -26,21 +26,19 @@ public void i_already_login_with_correct_account_sned_go_to_the_isi_pulsa_page()
 }
 
 
-Select Product ListrikPLN.Input correct nomor meter and correct nomor handphone  Time elapsed: 7.691 s  <<< ERROR!
-net.thucydides.core.webdriver.exceptions.ElementShouldBeEnabledException: Expected enabled element was not enabled
-Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for By.id: product_type_0 to be enabled (tried for 5 second(s) with 100 milliseconds interval)
-Caused by: org.openqa.selenium.NoSuchElementException: 
-no such element: Unable to locate element: {"method":"css selector","selector":"#product_type_0"}
+Select Product ListrikPLN.Input correct nomor meter and correct nomor handphone  Time elapsed: 20.231 s  <<< ERROR!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"css selector","selector":"#nomor\-handphone"}
   (Session info: chrome=111.0.5563.147)
 For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: '4.8.1', revision: '8ebccac989'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [94eb8e2f3398ff578836789d0a15ee0a, findElement {using=id, value=product_type_0}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.147, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\Users\BUNAYY~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:60578}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60578/devtoo..., se:cdpVersion: 111.0.5563.147, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 94eb8e2f3398ff578836789d0a15ee0a
+Command: [717f6a4acff8fb977a07ef24ea2fe2a3, findElement {using=id, value=nomor-handphone}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.147, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\Users\BUNAYY~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50459}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50459/devtoo..., se:cdpVersion: 111.0.5563.147, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 717f6a4acff8fb977a07ef24ea2fe2a3
 
-Select Product ListrikPLN.Input invalid nomor handphone  Time elapsed: 0.078 s  <<< ERROR!
+Select Product ListrikPLN.Input invalid nomor handphone  Time elapsed: 0.12 s  <<< ERROR!
 io.cucumber.junit.UndefinedStepException: 
 The step 'I click nominal pulsa' is undefined.
 You can implement this step using the snippet(s) below:
