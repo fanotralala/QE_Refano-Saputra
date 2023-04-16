@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><testsuite errors="0" failures="0" name="Products" skipped="0" tests="2" time="1.62" timestamp="2023-04-16 11:49:43"><testcase name="View product that id number is 1"/><testcase name="View products with invalid API endpoint"/></testsuite>

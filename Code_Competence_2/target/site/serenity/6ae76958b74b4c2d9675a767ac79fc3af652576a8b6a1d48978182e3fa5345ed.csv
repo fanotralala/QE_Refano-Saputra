@@ -1,0 +1,3 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Cart","View cart that id number is 1","SUCCESS","2023-04-16T11:49:24.1943374+07:00[Asia/Jakarta]","0.0","16.21"
+"Cart","View cart with invalid API endpoint","SUCCESS","2023-04-16T11:49:40.4271195+07:00[Asia/Jakarta]","0.0","1.0"

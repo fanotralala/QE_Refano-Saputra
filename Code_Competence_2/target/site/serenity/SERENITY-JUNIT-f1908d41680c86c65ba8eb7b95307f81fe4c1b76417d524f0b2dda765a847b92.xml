@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><testsuite errors="0" failures="0" name="Cart" skipped="0" tests="2" time="17.21" timestamp="2023-04-16 11:49:24"><testcase name="View cart that id number is 1"/><testcase name="View cart with invalid API endpoint"/></testsuite>

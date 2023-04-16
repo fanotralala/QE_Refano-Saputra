@@ -1,0 +1,5 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Login","Successful login with valid credentials","SUCCESS","2023-04-16T11:49:41.4482343+07:00[Asia/Jakarta]","0.0","0.65"
+"Products","View product that id number is 1","SUCCESS","2023-04-16T11:49:43.1969607+07:00[Asia/Jakarta]","0.0","0.81"
+"Products","View products with invalid API endpoint","SUCCESS","2023-04-16T11:49:44.0200447+07:00[Asia/Jakarta]","0.0","0.81"
+"User","View user with invalid API endpoint","SUCCESS","2023-04-16T11:49:45.860942+07:00[Asia/Jakarta]","0.0","0.97"

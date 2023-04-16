@@ -1,0 +1,4 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Cart","View cart with invalid API endpoint","SUCCESS","2023-04-16T11:49:40.4271195+07:00[Asia/Jakarta]","0.0","1.0"
+"Login","Failed to login with invalid credentials","SUCCESS","2023-04-16T11:49:42.108521+07:00[Asia/Jakarta]","0.0","1.08"
+"User","View number 1 user information","SUCCESS","2023-04-16T11:49:44.8396091+07:00[Asia/Jakarta]","0.0","1.01"
