@@ -1,55 +1,93 @@
-Software Testing Fundamental
+# Mobile Automation Testing with Appium
 
-Pengertian suatu proses menganalisi sebuah software untuk mendeteksi apakah ada perbedaan atau kesalahan pada suatu kondisi software serta untuk mengevaluasi fitur dari sebuah software.
+## Appium
+Appium adalah Mobile web, native dan hybrid software application test automation tool. Open-source a.k.a Gratisan software automation tool, Biasanya banyak digunakan untuk android dan IOS platform aplikasi. Yang paling penting adalah Appium bisa “cross-platform” automation tool , Jadi kalian bisa membuat software automatios test script di IOS dan Android menggunakan API yang sama.
 
-Mengapa Software Testing sangat pernting karena melakukan software testing kita dapat mengurangi biaya development; membuat kualitas produk menjadi baik dengan tidak adanya bug; keamanan yang cukup secure; serta memberikan kepuasan kepada user. Dengan tidak adanya hal berikut akan membuat bug yang sangat banyak yang menyebabkan pemborosan waktu,tenaga dan materi.
+### Appium High Level Architecture
+* Iphone with XCUITest
+* Android with UIAutomator2/Espreso
+* Windows with WinAppDriver
 
-Apa saja platform yang dapat di testing API, Web, Mobile. Dekstop
+### Appium Components
+1. Appium Server : Appium Server digunakan sebagai jembatan untuk mengontrol perangkat pengujian. Ada dua
+versi, kita dapat menggunakan appium desktop atau menginstall perintah appium menggunakan pm
+2. Appium Client : Library yang ditulis dalam beberapa bahasa untuk membuat test script sehingga kita bisa mengirimkan
+perintah ke server appium
 
-Macam-macam Software Testing
-* Functional Testing = tes berdasarkan user requirement nya
+### Installing Appium until Running Appium
+#### Prerequisites : 
+* Java JDK 8/11
+* Android SDK
+* Appium Dekstop
+* Node JS
+* appium-doctor
+#### Running Appium
+1. Conneting the Devices
+   * Untuk Real Device, install device driver terlebih dahulu
+   * Untuk Emulator, buat dengan menggunakan android studio
+2. Checking the Connected Devices
+   * Jalankan adb devices di cmd kemudian lihat UDID dan device name
+3. Running Appium Dekstop
+4. Using Appium Inspector
+5. Desired Capabilities
+   * Digunakan untuk mengatur device apa yang akan ditest
+6. Filing the Capabilities
+   * platfromName
+   * deviceName
+   * udid
+   * app
+   * automationName
+   * noReset
+7. Appium Inspector
+8. Appium Locators
+   * ID
+   * Class Name
+   * Xpath
+   * Accessibility ID
+   * Android UI Automator
+   * Android View Tag
+   * iOS UI Automation
+   * contoh : `<android. widget. ImageButton content-desc= "Open navigation drawer" resource-id-"com. isl. simpleapp: id/et 1">`
 
-#White box testing "testing bilamana kita mengetahui codingan nya"
--Unit testing = dilakukan oleh developer
-#Black box testing "testing bilamana kita tidak mengetahui codingan nya"
--System Integration Testing = 
--Regression testing
--Smoke testing = pengecekan sebelum dirilis 
--User Acceptence testing = 
+## Project Initialization & Appium Basic Action
+### Project Initialization
+1. Using Maven Archetype
+   * add dependencies
+   * download serenity cucumber mvn repository
+2. Adding Appium Java client
+   * add java client dependency
+### Appium bacis action and cucumer
+1. Cucumber Frameworks
+   * Using gherkin syntax
+2. Adding Feature Files
+3. Mapping Every Scenario Steps on Steps Class
+4. Initializing the Appium
+5. Adding Desired Capabilities
+   * contoh : &lt; DesiredCapabilities caps = new DesiredCapabilities();caps.setCapability ("platformName", "Android");//another capabilities&gt;
+6. Initialize the Appium
+   > - `try {
+    AndroidDriver<AndroidElement> androidDriver = new
+    AndroidDriver<> (new URL ("http://0.0.0.0:4723/wd/hub/"), caps);
+    } catch (MalformedURLException e){
+    e.printStackTrace () ;
+    }`
+7. Cucumber Hooks
+8. Page Object Design Pattern
+9. Function Methods
+    > - `by` Object and `findElement()`
+    > - `sendKeys()` and `clear()`
+    > - `click()`
+    > - `get()`
+    > - `isDiplayed()`
+9. Perform Assertions
+10. Mapping The Page Object to Steps Class
+11. Cucumber Tags
 
-*Non-Functional Testing = Perfomance Testing, Security Testing, Compabilty Testing, Disaster Recover Testing
+## Appium Complex Actios & Maximizing the Project Structure
+1. Working with Wait
+2. The BasePageObject class
+3. Performing complex actions
+4. Taking Screenshot
+5. Configuration file
 
-*Maintenance Testing = Regression
 
-Level of Testing
-#Unit Testing = testing secara individu dari setiap komponen software yang di tes
-#Integration Testing = testing secara kolaborasi antar fitur satu dengan yang lainnya
-#System Testing = testing secara menyeluruh dan mengintegrasi seluruh fitur dari suatu software
-#Acceptence Testing = testing tahap final sebelum akhirnya diliris ataupun diperbarui
-
-Software Testing as a Career Path
-
-Software Testing merupakan verifikasi suatu program untuk mendiskuAiskan ditur dan kebutuhan sebelum diliris untuk mengidentifikasi bug pada suatu product
-
-Apa yang dilakukan oleh Software Tester
--Memahami kebutuhan suatu dokumen
--Membuat test case
--Mencoba hasil dari testing
--Melaporkan dan mencoba kesalahan pada suatu software
--Melaporkan kesalahan software pada meeting dan menyampaikan ke tim
-
-Skill yang dibutuhkan Software Tester
-Non-Technical Skills
--Analytical Skill
--Comunnication Skill
--Great Attitude
--Passion
--Time Management & Organization Skill
-
-Technical Skills
--Basic Knowledge of Linux command
--Knowledge of Test Management Tool
--Knowledge of Tracking Management Tool
--Knowledge of Automation Testing Tool
-
-Pekerjaan selain Software Tester yang mirip Perfomance Tester; Penetration Tester; System Analyst; Scrum Master
