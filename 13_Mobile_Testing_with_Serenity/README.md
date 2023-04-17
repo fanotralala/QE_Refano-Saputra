@@ -69,7 +69,7 @@ perintah ke server appium
     AndroidDriver<AndroidElement> androidDriver = new
     AndroidDriver<> (new URL ("http://0.0.0.0:4723/wd/hub/"), caps);
     } catch (MalformedURLException e){
-    e.printStackTrace () ;
+        e.printStackTrace () ;
     }`
 7. Cucumber Hooks
 8. Page Object Design Pattern
