@@ -87,7 +87,24 @@ perintah ke server appium
 1. Working with Wait
 2. The BasePageObject class
 3. Performing complex actions
-4. Taking Screenshot
-5. Configuration file
+4. Taking ScreenShot
+Dengan menambahkan cucumber.properties file :
+
+Cucumber.glue, untuk mengset lokasi dari tiap step dan hooks class
+Cucumber.plugin, untuk mengaktifkan cucumber plugin
+Cucumber.features, untuk mengset location dari features file
+Cucumber.publish.enabled, untuk mengaktifkan cucumber online reports
+Cucumber.publish.quite, untuk mengaktifkan dan menonaktifkan cucumber reports
+The TakesScreenshot Interface
+Android driver class mengimplementasikan interface tersebut, interface digunakan untuk melakukan screenshot pada layar, dapat diterapkan pada web automation juga, dapat diletakkan pada hooks class sehingga ketika skenario gagal appium dapat melakukan screenshot.
+
+Configuration File
+Merupakan praktik yang buruk dalam menyimpan konfigurasi di dalam implementasi kode, tiap terdapat perubahan konfigurasi, tidak perlu refactor automation codenya, yang diperlukan hanya update value dari file yang dikonfigurasi saja.
+
+Configuration usingg YAML format
+YAML merupakan data serialization language yang sering digunakan untuk menulis file yang dikonfigurasi, YAML merupakan singkatan dari yet another markup language.
+
+SnakeYAML Library
+Merupakan library untuk serialisasi javaobject ke YAML file atau vice versa, dapat digunakan untuk membaca konfigurasi dari YAML file, harus menambahkan dependenciesnya terlebih dulu. Menambahkan properties class, kemudian menambahkan YAML configuration file, setelah itu membuat reader class.
 
 
