@@ -1,25 +1,13 @@
 Feature: Login
-  As a User
+  As a user
   I want to login
-  So I can use the website
+  So that i can access homepage
 
-  Scenario: Open Login Page
-    Given I am in main page
-    When I open login page
-    Then login page id displayed
 
-  Scenario Outline: Login with username and password
-    Given I am in login page
-    When I input "<email>" email
-    And I input "<password>" password
-    And I click login button
-    Then I get "<result>"
-
-    Examples:
-      | email | password | result |
-      |  thaur@mail.com | thaurn | logged in |
-      |  thaur@mail.com | pinto | invalid error |
-      |  user@mail.com  |       | password error   |
-      |                 | nxxxae | email error |
-      | naevis@mail.com | pass | invalid error |
-      |                 |      | all error |
+  Scenario Outline: Login
+    Given I am on the product list
+    When I click button sign in
+    And I input field email 
+    And I input field password 
+    And I click button login
+    Then I get the message

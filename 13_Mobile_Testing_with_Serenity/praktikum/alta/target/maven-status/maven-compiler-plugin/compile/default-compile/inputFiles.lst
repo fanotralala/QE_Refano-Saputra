@@ -1,6 +1,6 @@
-D:\altamini_Mobile-master\src\main\java\com\example\app\pages\ProductPage.java
-D:\altamini_Mobile-master\src\main\java\com\example\app\pages\LoginPage.java
-D:\altamini_Mobile-master\src\main\java\com\example\app\pages\RegisterPage.java
-D:\altamini_Mobile-master\src\main\java\com\example\app\pages\TaskPage.java
-D:\altamini_Mobile-master\src\main\java\com\example\app\base\BasePageObject.java
-D:\altamini_Mobile-master\src\main\java\com\example\app\drivers\AndroidDriversInit.java
+C:\Users\Bunayya Zulfikar\Music\alta\src\main\java\test\automation\properties\ConfigProperties.java
+C:\Users\Bunayya Zulfikar\Music\alta\src\main\java\test\automation\pageobject\AndroidPageObject.java
+C:\Users\Bunayya Zulfikar\Music\alta\src\main\java\test\automation\pageobject\BasePageObject.java
+C:\Users\Bunayya Zulfikar\Music\alta\src\main\java\test\automation\properties\DriverAndroidProperties.java
+C:\Users\Bunayya Zulfikar\Music\alta\src\main\java\test\automation\driver\DriverPool.java
+C:\Users\Bunayya Zulfikar\Music\alta\src\main\java\test\automation\driver\AndroidDriverPool.java
