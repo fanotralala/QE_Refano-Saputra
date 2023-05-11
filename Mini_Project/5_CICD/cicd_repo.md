@@ -1,1 +1,1 @@
-https://github.com/fanotralala/Minpro_CI_CD.git
+https://github.com/fanotralala/API_CICD_Minpro.git
