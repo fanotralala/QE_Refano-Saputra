@@ -107,6 +107,6 @@ Mentimun adalah alat yang mendukung BDD dengan membaca kondisi yang dapat diekse
 * Maven
 * IDE
 
-REFERNSI :
+REFERENSI:
 
 * PPT Alta
