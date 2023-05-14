@@ -1,0 +1,6 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Login to Alta-shop Account","Login with correct credentials","SUCCESS","2023-05-11T19:20:44.4123877+07:00[Asia/Jakarta]","0.0","3.78"
+"Login to Alta-shop Account","Login with wrong password","SUCCESS","2023-05-11T19:20:48.5505736+07:00[Asia/Jakarta]","0.0","3.26"
+"Login to Alta-shop Account","Login with wrong email","SUCCESS","2023-05-11T19:20:52.1821909+07:00[Asia/Jakarta]","0.0","3.5"
+"Login to Alta-shop Account","Login with invalid email","SUCCESS","2023-05-11T19:20:56.0185138+07:00[Asia/Jakarta]","0.0","3.32"
+"Login to Alta-shop Account","Login without input any fields","SUCCESS","2023-05-11T19:20:59.692905+07:00[Asia/Jakarta]","0.0","3.07"

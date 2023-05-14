@@ -1,0 +1,5 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Product","Add to cart by buy a product without login","SUCCESS","2023-05-11T19:21:09.2562298+07:00[Asia/Jakarta]","0.0","0.1"
+"Product","Adding product from cart page","SUCCESS","2023-05-11T19:21:09.3624892+07:00[Asia/Jakarta]","0.0","0.09"
+"Product","Reducing product from cart page","SUCCESS","2023-05-11T19:21:09.4642956+07:00[Asia/Jakarta]","0.0","0.08"
+"Product","View product detail","SUCCESS","2023-05-11T19:21:09.5520636+07:00[Asia/Jakarta]","0.0","0.09"

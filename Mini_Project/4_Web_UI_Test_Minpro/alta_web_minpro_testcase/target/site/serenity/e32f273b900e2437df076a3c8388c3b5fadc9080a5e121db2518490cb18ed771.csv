@@ -1,0 +1,5 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Register to Alta-shop Account","Register without fill the fullname","SUCCESS","2023-05-11T19:20:24.6194791+07:00[Asia/Jakarta]","0.0","4.87"
+"Register to Alta-shop Account","Register without fill the email","SUCCESS","2023-05-11T19:20:29.9650098+07:00[Asia/Jakarta]","0.0","4.4"
+"Register to Alta-shop Account","Register without fill the password","SUCCESS","2023-05-11T19:20:34.8093707+07:00[Asia/Jakarta]","0.0","4.26"
+"Register to Alta-shop Account","Register with existed email","SUCCESS","2023-05-11T19:20:39.569448+07:00[Asia/Jakarta]","0.0","4.28"

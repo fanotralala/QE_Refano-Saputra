@@ -1,0 +1,3 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Transaction","View Transaction","SUCCESS","2023-05-11T19:21:18.3325405+07:00[Asia/Jakarta]","0.0","4.9"
+"Transaction","View transaction without login","SUCCESS","2023-05-11T19:21:23.6050288+07:00[Asia/Jakarta]","0.0","3.28"
